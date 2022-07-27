@@ -49,7 +49,7 @@ async def test_mux(dut):
         dut.sel.value = j
         await Timer(2, units='ns')
         
-        #cocotb.log.info(f'Error at select input = {bin(j)}')
+        cocotb.log.info(f'Error at select input = {bin(j)}')
 
         error_message = f'Value mismatch at select input = {bin(j)}'
         assert dut.out.value == (j%3) + 1, error_message
