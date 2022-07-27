@@ -43,3 +43,8 @@ async def test_seq_bug1(dut):
     assert dut.seq_seen.value == 1
 
     cocotb.log.info('#### CTB: Develop your test here! ######')
+    
+    
+    
+    
+    
