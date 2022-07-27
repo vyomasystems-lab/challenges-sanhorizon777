@@ -66,3 +66,8 @@ def run_test(dut):
     # comparison
     error_message = f'Value mismatch DUT = {hex(dut_output)} does not match MODEL = {hex(expected_mav_putvalue)} for src1 values = {hex(mav_putvalue_src1)} and for src2 = {hex(mav_putvalue_src2)}'
     assert dut_output == expected_mav_putvalue, error_message
+    
+    
+    
+    
+    
