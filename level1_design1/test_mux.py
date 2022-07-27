@@ -55,3 +55,9 @@ async def test_mux(dut):
         assert dut.out.value == (j%3) + 1, error_message
 
     cocotb.log.info('##### CTB: Develop your test here ########')
+    
+    
+    
+    
+    
+    
